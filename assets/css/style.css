@@ -1,0 +1,9 @@
+#logo {
+	background: url(../img/Logo-Text.png) no-repeat center center;
+	background-size: contain;
+	width: 152px;
+}
+
+#hero-illustration {
+	position: relative;
+}
