@@ -5,30 +5,24 @@
 }
 
 /* Our Solutions Section */
-.solution-cards {
-	display: flex;
-	justify-content: space-around;
-}
 .solution-card {
 	display: grid;
 	place-items: center;
 }
 
 .icon-container {
-	background: red;
 	display: flex;
 	border-radius: 10px;
-	padding: 10px;
 }
 
-.solution-card:nth-child(1) .icon-container {
+#section-solutions .columns .column:nth-child(1) .icon-container {
 	background: #3fffb2;
 }
 
-.solution-card:nth-child(2) .icon-container {
+#section-solutions .columns .column:nth-child(2) .icon-container {
 	background: #ff665e;
 }
 
-.solution-card:nth-child(3) .icon-container {
+#section-solutions .columns .column:nth-child(3) .icon-container {
 	background: #e7d7c1;
 }
