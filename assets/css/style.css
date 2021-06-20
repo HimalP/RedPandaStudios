@@ -26,3 +26,8 @@
 #section-solutions .columns .column:nth-child(3) .icon-container {
 	background: #e7d7c1;
 }
+
+/* Footer */
+.footer{
+	background-color: white;
+}
