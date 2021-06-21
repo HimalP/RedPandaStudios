@@ -7,4 +7,17 @@ $primary: #ff5349;
 
 $navbar-item-color: black;
 
+// Input
+$input-focus-box-shadow-color: none;
+$input-focus-border-color: none;
+$input-radius: 0;
+input,
+textarea {
+	border-width: 0 0 2px 0 !important;
+}
+
+// Footer
+$footer-background-color: white;
+$footer-padding: 2rem;
+
 @import '../node_modules/bulma/bulma.sass';

@@ -27,7 +27,22 @@
 	background: #e7d7c1;
 }
 
-/* Footer */
-.footer{
-	background-color: white;
+/* Contact Section */
+.contact-info p {
+	display: flex;
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icon {
+	background: #353531;
+	display: flex;
+	width: fit-content;
+	border-radius: 50%;
+}
+
+.social-icon:nth-child(2) {
+	background: #5e2bff;
 }
