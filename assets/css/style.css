@@ -27,6 +27,33 @@
 	background: #e7d7c1;
 }
 
+/* Process Section */
+#section-process {
+	background-color: #e7d7c1;
+}
+
+#section-process img {
+	width: 300px;
+}
+
+#section-process .icon-container {
+	border-radius: 50%;
+	position: relative;
+	top: 35%;
+	margin: auto;
+	width: 48px;
+}
+
+#section-process .columns .column .icon-container {
+	background: #ff665e;
+}
+
+@media screen and (max-width: 768px) {
+	#section-process svg {
+		transform: rotate(90deg);
+	}
+}
+
 /* Contact Section */
 .contact-info p {
 	display: flex;
