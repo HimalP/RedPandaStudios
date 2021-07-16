@@ -1,7 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
 #logo {
 	background: url(../img/Logo-Text.png) no-repeat center center;
 	background-size: contain;
 	width: 152px;
+	margin-top: 0.75rem;
 }
 
 /* Our Solutions Section */
