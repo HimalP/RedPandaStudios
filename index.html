@@ -488,13 +488,19 @@
 
 					<div class="column">
 						<div class="box p-5">
-							<div class="form">
+							<form
+								class="form"
+								name="contact"
+								method="POST"
+								data-netlify="true"
+							>
 								<div class="field mb-5">
 									<label class="label">Name</label>
 									<p class="control has-icons-left">
 										<input
 											class="input"
 											type="text"
+											name="Name"
 											placeholder="Your name..."
 										/>
 										<span class="icon is-small is-left">
@@ -524,6 +530,7 @@
 										<input
 											class="input"
 											type="text"
+											name="Email"
 											placeholder="Your email..."
 										/>
 										<span class="icon is-small is-left">
@@ -552,6 +559,7 @@
 									<div class="control">
 										<textarea
 											class="textarea"
+											name="Message"
 											placeholder="Let us know a little about yourself and what you are looking for..."
 										></textarea>
 									</div>
@@ -566,7 +574,7 @@
 										</button>
 									</div>
 								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
